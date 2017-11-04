@@ -1,8 +1,10 @@
+
+
 <?php
 
 class Task extends Entity {
 
-    protected $id, $task, $priority, $size, $group, $deadline, $status, $flag;
+    public $id, $task, $priority, $size, $group, $deadline, $status, $flag;
 
     public function __construct()
     {
