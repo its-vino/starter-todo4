@@ -19,13 +19,13 @@ if (! class_exists('PHPUnit_Framework_TestCase')) {
      {
          // Load CI instance normally
          $this->CI   = &get_instance();
-         $this->task = new Task;
+         $this->task = new $this->CI->task;
      }
 
      public function testSetId()
      {
          $this->task->Id = -1;
-         $this->assertEquals(false, $this->task->Id);
+         $this->assertEquals(false, $this->task->id);
          
          $this->task->Id = 2;
          $this->assertEquals(true, $this->task->id);
