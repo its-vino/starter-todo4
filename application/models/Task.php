@@ -8,12 +8,13 @@ class Task extends Entity {
 
     public function __construct()
     {
-
+        parent::__construct();
     }
 
     public function setId($value)
     {
         if($value < 0) {
+            $this->id = false;
             return false;
         }
         $this->id = $value;
