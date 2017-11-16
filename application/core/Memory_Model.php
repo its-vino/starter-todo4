@@ -126,10 +126,11 @@ class Memory_Model extends CI_Model implements DataMapper
 	// populate it.
 	function create()
 	{
-		$names = $this->_fields;
+		$names = $this->fields;
 		$object = new StdClass;
-		foreach ($names as $name)
+		foreach ($names as $name) {
 			$object->$name = "";
+		}
 		return $object;
 	}
 
@@ -250,7 +251,6 @@ class Memory_Model extends CI_Model implements DataMapper
 	function truncate()
 	{
 		$this->data = array();
-		;
 	}
 
 }

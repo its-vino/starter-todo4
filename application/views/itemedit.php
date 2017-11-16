@@ -5,7 +5,7 @@
     {fsize}
     {fgroup}
     {fstatus}
-    {zsubmit}
+    <input type="submit" value="Update the TODO task"/>
 </form>
     {error}
 <a href="/mtce/cancel"><input type="button" value="Cancel the current edit"/></a>
