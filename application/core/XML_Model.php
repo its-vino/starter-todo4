@@ -6,7 +6,7 @@
  * @author		Vincent Lee
  * ------------------------------------------------------------------------
  */
-class XML_Model extends CSV_Model
+class XML_Model extends Memory_Model
 {
 //---------------------------------------------------------------------------
 //  Housekeeping methods
