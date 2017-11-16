@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <tasks>
-    <item id="1">
+    <item>
+        <id>1</id>
         <task>COMP 1234 assignment</task>
         <priority>3</priority>
         <size>2</size>
@@ -9,7 +10,8 @@
         <status>2</status>
         <flag></flag>
     </item>
-    <item id="2">
+    <item>
+        <id>2</id>
         <task>Mow the lawn</task>
         <priority>2</priority>
         <size>2</size>
@@ -18,7 +20,8 @@
         <status>2</status>
         <flag></flag>
     </item>
-    <item id="3">
+    <item>
+        <id>3</id>
         <task>Wash the car</task>
         <priority>2</priority>
         <size>2</size>
@@ -27,7 +30,8 @@
         <status></status>
         <flag></flag>
     </item>
-    <item id="4">
+    <item>
+        <id>4</id>
         <task>Paint the fence</task>
         <priority>1</priority>
         <size>2</size>
@@ -36,7 +40,8 @@
         <status></status>
         <flag></flag>
     </item>
-    <item id="6">
+    <item>
+        <id>6</id>
         <task>Intramural hockey game</task>
         <priority>1</priority>
         <size>2</size>
@@ -45,7 +50,8 @@
         <status></status>
         <flag></flag>
     </item>
-    <item id="7">
+    <item>
+        <id>7</id>
         <task>Canucks hockey game</task>
         <priority>3</priority>
         <size>3</size>
@@ -54,7 +60,8 @@
         <status>2</status>
         <flag></flag>
     </item>
-    <item id="8">
+    <item>
+        <id>8</id>
         <task>Buy steel-toed boots</task>
         <priority>2</priority>
         <size>1</size>
@@ -63,7 +70,8 @@
         <status></status>
         <flag></flag>
     </item>
-    <item id="9">
+    <item>
+        <id>9</id>
         <task>Learn French</task>
         <priority>1</priority>
         <size>3</size>
@@ -72,7 +80,8 @@
         <status>1</status>
         <flag></flag>
     </item>
-    <item id="10">
+    <item>
+        <id>10</id>
         <task>Hit the gym</task>
         <priority>2</priority>
         <size>1</size>
@@ -81,7 +90,8 @@
         <status></status>
         <flag></flag>
     </item>
-    <item id="11">
+    <item>
+        <id>11</id>
         <task>Pay bills</task>
         <priority>3</priority>
         <size>1</size>
@@ -90,7 +100,8 @@
         <status></status>
         <flag></flag>
     </item>
-    <item id="13">
+    <item>
+        <id>13</id>
         <task>Buy milk &amp; bread</task>
         <priority>2</priority>
         <size>1</size>
@@ -99,7 +110,8 @@
         <status></status>
         <flag>1</flag>
     </item>
-    <item id="14">
+    <item>
+        <id>14</id>
         <task>Read War &amp; Peace</task>
         <priority>1</priority>
         <size>3</size>
@@ -108,7 +120,8 @@
         <status></status>
         <flag></flag>
     </item>
-    <item id="15">
+    <item>
+        <id>15</id>
         <task>Organize the study</task>
         <priority>1</priority>
         <size>4</size>
